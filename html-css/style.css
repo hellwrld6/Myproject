@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  h1.Heading, h1.info {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .split {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .right {
+    flex: 1;
+  }
+  
+  .top.left.corner {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+  }
+  
+  .Centered {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+.left.corner, .middle.left.corner, .mid.center, .corner.right {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:250px;
+}
+  .years_of_operation, .beds, .specialists, .Patients, .icu, .theaters {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: center; /* Center the heading */
+  }
+  
+  p {
+    color: #777;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .Paragraph {
+    text-align: center;
+    margin-top: 20px;
+    margin-left:250px;
+  }
+  
+  .List {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-left:250px;
+  }
+  
+  .List li {
+    display: inline-block;
+    margin: 10px;
+  }
